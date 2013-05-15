@@ -1,0 +1,84 @@
+ command line:
+   ./ALU_test_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  2273
+
+Wed May 01 10:12:58 2013
+
+Total Line Count : 723
+
+ Elaboration time : 0 sec.
+
+ Estimate current memory usage : 128.672 Meg. 
+
+ Total Signals          : 104
+ Total Nets             : 245
+ Total Signal Drivers   : 33
+ Total Blocks           : 21
+ Total Primitive Blocks : 10
+ Total Processes        : 20
+ Total Traceable Variables  : 9
+ Total Scalar Nets and Variables : 254
+ntrace select -o on -n /ALU_test/x 
+ntrace select -o on -n /ALU_test/y 
+ntrace select -o on -n /ALU_test/z_beh 
+ntrace select -o on -n /ALU_test/z_str 
+ntrace select -o on -n /ALU_test/cout_str 
+ntrace select -o on -n /ALU_test/cout_beh 
+ntrace select -o on -n /ALU_test/lt_str 
+ntrace select -o on -n /ALU_test/lt_beh 
+ntrace select -o on -n /ALU_test/eq_str 
+ntrace select -o on -n /ALU_test/eq_beh 
+ntrace select -o on -n /ALU_test/gtr_str 
+ntrace select -o on -n /ALU_test/gtr_beh 
+ntrace select -o on -n /ALU_test/ovrfl_str 
+ntrace select -o on -n /ALU_test/ovrfl_beh 
+ntrace select -o on -n /ALU_test/ctrl 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+WARNING:Simulator:29 - at 0 ns: Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an
+   arithmetic operand, the result will be 'X'(es).
+WARNING:Simulator:29 - at 0 ns: Warning: CONV_INTEGER: There is an
+   'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+WARNING:Simulator:29 - at 0 ns: Warning: CONV_INTEGER: There is an
+   'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+WARNING:Simulator:29 - at 0 ns: Warning: CONV_INTEGER: There is an
+   'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+WARNING:Simulator:29 - at 0 ns: Warning: CONV_INTEGER: There is an
+   'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+WARNING:Simulator:29 - at 0 ns: Warning: CONV_INTEGER: There is an
+   'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+WARNING:Simulator:29 - at 0 ns: Warning: CONV_INTEGER: There is an
+   'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+WARNING:Simulator:29 - at 0 ns: Warning: CONV_INTEGER: There is an
+   'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+WARNING:Simulator:29 - at 0 ns: Warning: CONV_INTEGER: There is an
+   'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+WARNING:Simulator:29 - at 0 ns: Warning: CONV_INTEGER: There is an
+   'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+WARNING:Simulator:29 - at 0 ns: Warning: CONV_INTEGER: There is an
+   'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+WARNING:Simulator:29 - at 0 ns: Warning: CONV_INTEGER: There is an
+   'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+WARNING:Simulator:29 - at 0 ns: Warning: CONV_INTEGER: There is an
+   'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+WARNING:Simulator:29 - at 0 ns: Warning: CONV_INTEGER: There is an
+   'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+WARNING:Simulator:29 - at 0 ns: Warning: CONV_INTEGER: There is an
+   'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+WARNING:Simulator:29 - at 0 ns: Warning: CONV_INTEGER: There is an
+   'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+WARNING:Simulator:29 - at 0 ns: Warning: CONV_INTEGER: There is an
+   'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+WARNING:Simulator:29 - at 0 ns: Warning: CONV_INTEGER: There is an
+   'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+
+ Simulation time 0.015625 sec.
+
+ Estimate current memory usage : 137.06 Meg. 
+
+Wed May 01 10:18:53 2013
+

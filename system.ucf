@@ -1,0 +1,3 @@
+NET "sys_clk"  LOC = "AJ15";
+
+NET "sys_rst"  LOC = "AH5";
